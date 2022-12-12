@@ -1,0 +1,17 @@
+li {
+    display: inline-block;
+    
+}
+
+header {
+    margin: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header>ul>li>a {
+    background-color: grey;
+    color: white;
+    text-decoration: none;
+    padding: 10px;   
+}
